@@ -1149,7 +1149,8 @@ var raf = fallback;
 var compatRaf = void 0;
 
 var getKey = function getKey(vendor, k) {
-  return vendor + (!vendor ? k : k[0].toUpperCase() + k.substr(1)) + 'AnimationFrame';
+    var str = typeof k == 'string' ? k.charAt(0) : k[0];
+    return vendor + (!vendor ? k : str.toUpperCase() + k.substr(1)) + 'AnimationFrame';
 };
 
 if (_inDOM2.default) {

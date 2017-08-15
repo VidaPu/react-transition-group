@@ -1,7 +1,7 @@
 {
-  "name": "react-transition-group",
-  "version": "2.2.0",
-  "description": "A react component toolset for managing animations",
+  "name": "react-transition-group-ie",
+  "version": "0.0.1",
+  "description": "fork react-transition-group, change something for IE7 , use react-transition-group@2.2.0",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest --runInBand --verbose",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reactjs/react-transition-group.git"
+    "url": "git+https://github.com/VidaPu/react-transition-group.git"
   },
   "keywords": [
     "react",
